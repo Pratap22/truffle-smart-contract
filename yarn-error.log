@@ -1,0 +1,37 @@
+Arguments: 
+  /Users/pratap/.nvm/versions/node/v14.15.5/bin/node /Users/pratap/.nvm/versions/node/v14.15.5/bin/yarn
+
+PATH: 
+  /Users/pratap/.nvm/versions/node/v14.15.5/bin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/pratap/.nvm/versions/node/v14.15.5/bin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/Users/pratap/.cargo/bin:/Users/pratap/Library/Android/sdk/emulator:/Users/pratap/Library/Android/sdk/tools:/Users/pratap/Library/Android/sdk/tools/bin:/Users/pratap/Library/Android/sdk/platform-tools:/Users/pratap/Library/Android/sdk/emulator:/Users/pratap/Library/Android/sdk/tools:/Users/pratap/Library/Android/sdk/tools/bin:/Users/pratap/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.15.5
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/pratap/memetoons/truffle-smart-contract/package.json: Unexpected token } in JSON at position 150
+      at JSON.parse (<anonymous>)
+      at /Users/pratap/.nvm/versions/node/v14.15.5/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/Users/pratap/.nvm/versions/node/v14.15.5/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /Users/pratap/.nvm/versions/node/v14.15.5/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+      "dependencies": {
+          "@0xcert/ethereum-erc721": "^2.0.0",
+          "@truffle/hdwallet-provider": "^1.4.1",
+          "dotenv": "^10.0.0",
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
