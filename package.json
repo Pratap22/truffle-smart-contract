@@ -1,8 +1,19 @@
 {
-    "dependencies": {
-        "@0xcert/ethereum-erc721": "^2.0.0",
-        "@truffle/hdwallet-provider": "^1.4.1",
-        "dotenv": "^10.0.0",
-        "truffle": "^5.4.2"
-    }
+  "name": "truffle-smart-contract",
+  "version": "1.0.0",
+  "repository": "https://github.com/Pratap22/truffle-smart-contract.git",
+  "author": "Pratap <sharma.pratap22@gmail.com>",
+  "scripts": {
+    "compile": "truffle compile",
+    "migrate": "truffle migrate",
+    "test": "truffle test"
+  },
+  "dependencies": {
+    "@0xcert/ethereum-erc721": "^2.0.0",
+    "@truffle/hdwallet-provider": "^1.4.1",
+    "dotenv": "^10.0.0",
+    "truffle": "^5.4.2"
+  },
+  "license": "MIT",
+  "private": true
 }
