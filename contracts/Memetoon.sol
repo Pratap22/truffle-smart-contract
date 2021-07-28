@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.5.6;
+pragma solidity 0.8.0;
 
 import "@0xcert/ethereum-erc721/src/contracts/tokens/nf-token-metadata.sol";
 import "@0xcert/ethereum-erc721/src/contracts/ownership/ownable.sol";

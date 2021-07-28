@@ -5,7 +5,7 @@ require("dotenv").config();
 module.exports = {
   compilers: {
     solc: {
-      version: "0.5.6",
+      version: "0.8.0",
     },
   },
   networks: {
@@ -13,7 +13,7 @@ module.exports = {
       provider: () => {
         return new HDWalletProvider(
           process.env.MNEMONIC,
-          "https://rinkeby.infura.io/v3/" + process.enc.INFURA_API_KEY
+          "https://rinkeby.infura.io/v3/" + process.env.INFURA_API_KEY
         );
       },
       network_id: 4,

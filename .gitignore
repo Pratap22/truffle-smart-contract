@@ -1,4 +1,3 @@
-build/
 flattened/
 node_modules/
 .env
