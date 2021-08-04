@@ -20,7 +20,7 @@ contract Memetoon is NFTokenMetadata, Ownable {
     ) public payable {
 
         require(
-            msg.value <= minMintValue,
+            msg.value < minMintValue,
             "Minting requires minimum."
         );
 
