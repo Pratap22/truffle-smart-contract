@@ -13,11 +13,13 @@ module.exports = {
       provider: () => {
         return new HDWalletProvider(
           process.env.MNEMONIC,
-          "https://rinkeby.infura.io/v3/" + process.env.INFURA_API_KEY
+          `https://${process.env.NETWORK || "rinkeby"}.infura.io/v3/${
+            process.env.INFURA_API_KEY
+          }`
         );
       },
-      network_id: 4,
-      gas: 5500000,
+      network_id: process.env.NETWORK_ID || 4,
+      gas: 3500000,
       confirmations: 2,
       timeoutBlocks: 200,
       skipDryRun: true,

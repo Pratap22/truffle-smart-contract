@@ -23,17 +23,17 @@ Set values accordingly.
 Complie the smart-contract
 
 ```bash
-truffle compile
+yarn compile
 ```
 
 Migrating the truffle contract
 
 ```bash
-truffle migrate
+yarn migrate
 ```
 
 Testing the test
 
 ```bash
-truffle test
+yarn test
 ```

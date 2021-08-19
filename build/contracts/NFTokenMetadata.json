@@ -9520,7 +9520,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.2",
-  "updatedAt": "2021-07-28T05:33:15.562Z",
+  "updatedAt": "2021-08-19T04:00:16.414Z",
   "devdoc": {
     "details": "Optional metadata implementation for ERC-721 non-fungible token standard.",
     "kind": "dev",
