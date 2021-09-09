@@ -1,7 +1,8 @@
 const HDWalletProvider = require("@truffle/hdwallet-provider");
+const Web3 = require("web3");
+const web3 = new Web3();
 
 require("dotenv").config();
-
 module.exports = {
   compilers: {
     solc: {
@@ -19,9 +20,7 @@ module.exports = {
         );
       },
       network_id: process.env.NETWORK_ID || 4,
-      gas: 3500000,
-      confirmations: 2,
-      timeoutBlocks: 200,
+      gasPrice: web3.utils.toWei("100", "gwei"),
       skipDryRun: true,
     },
   },

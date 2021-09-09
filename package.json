@@ -5,7 +5,9 @@
   "author": "Pratap <sharma.pratap22@gmail.com>",
   "scripts": {
     "compile": "truffle compile",
+    "console": "truffle console",
     "migrate": "truffle migrate",
+    "migrate:live": "truffle migrate",
     "test": "truffle test"
   },
   "dependencies": {

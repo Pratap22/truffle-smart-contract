@@ -478,7 +478,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.2",
-  "updatedAt": "2021-08-19T04:00:16.406Z",
+  "updatedAt": "2021-09-09T05:03:13.137Z",
   "devdoc": {
     "details": "ERC-721 interface for accepting safe transfers. See https://github.com/ethereum/EIPs/blob/master/EIPS/eip-721.md.",
     "kind": "dev",
